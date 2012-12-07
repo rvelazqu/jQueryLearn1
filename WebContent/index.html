@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link type="text/css" href="css/ui-lightness/jquery-ui-1.9.2.custom.css"
+	rel="Stylesheet" />
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.9.2.custom.js"></script>
+</head>
+<body>
+	<div id="startHere" style="border: 3px solid black;">
+		<h1>Start Here</h1>
+	</div>
+	<div>
+		<a href="#" id="hiderLink">Hide it!</a>
+	</div>
+	<script type="text/javascript">
+		$("#hiderLink").click(function() {
+			$("#startHere").hide();
+		});
+	</script>
+</body>
+</html>
