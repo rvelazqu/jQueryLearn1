@@ -7,8 +7,12 @@
 	rel="Stylesheet" />
 <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.js"></script>
+<script type="text/javascript" src="js/external.js"></script>
 </head>
 <body>
+	<a href="http://www.braingia.org?shjs">Click here if you're not
+		redirected</a>
+
 	<div id="startHere" style="border: 3px solid black;">
 		<h1>Start Here</h1>
 	</div>
@@ -17,7 +21,7 @@
 	</div>
 	<script type="text/javascript">
 		$("#hiderLink").click(function() {
-			$("#startHere").hide();
+			$("#startHere").hide("slide", {}, 400);
 		});
 	</script>
 </body>
